@@ -4,4 +4,11 @@ class Employee extends Person{
      this.department = department;
      this.clients = clients;
  }
+
+  toString(){
+   const card = super.toString() +
+     'Dipartimento: ' + this.department + '\n' +
+     'Clienti: ' + this.clients;
+     return card;
+  }
 }

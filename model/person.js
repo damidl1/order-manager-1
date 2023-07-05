@@ -8,4 +8,12 @@ class Person{
     this.gender = gender;
     
  }
+
+ toString(){
+  const card = 'Nome: ' + this.name + '\n' +
+               'Cognome: ' + this.surname + '\n' +
+               'Data di nascita: ' + this.dob + '\n' +
+               'Genere: ' + this.gender;
+               return card;
+ }
 }
